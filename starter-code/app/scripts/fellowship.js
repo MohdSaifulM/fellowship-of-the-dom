@@ -56,9 +56,9 @@ function makeMiddleEarth() {
 
   // append middle-earth to your document body
   body.appendChild($sectionTag);
-  body.appendChild($shireTag);
-  body.appendChild($rivendellTag);
-  body.appendChild($mordorTag);
+  $sectionTag.appendChild($shireTag);
+  $sectionTag.appendChild($rivendellTag);
+  $sectionTag.appendChild($mordorTag);
 
 }
 
