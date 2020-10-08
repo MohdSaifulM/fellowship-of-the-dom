@@ -54,19 +54,19 @@ article li {
 }
 
 /* The Shire */
-article:nth-child(1) {
+.shire {
   top: 35%;
   left: 21%;
 }
 
 /* Rivendell */
-article:nth-child(2) {
+.rivendell {
   left: 47%;
   top: 34%;
 }
 
 /* Mordor */
-article:nth-child(3) {
+.mordor {
   left: 71%;
   top: 81%;
   background: url(../images/eye_of_sauron.png) no-repeat;
